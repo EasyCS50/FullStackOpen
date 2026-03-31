@@ -21,6 +21,6 @@ test('<BlogForm /> calls the event handler with the right details when a new blo
   expect(createBlog.mock.calls[0][0]).toEqual({
     title: 'One Piece',
     author: 'Oda',
-    url: 'https://one-piece.com'
+    url: 'https://one-piece.com/op/links_eng/'
   })
 })
