@@ -14,7 +14,7 @@ test('<BlogForm /> calls the event handler with the right details when a new blo
 
   await user.type(author, 'Oda')
   await user.type(title, 'One Piece')
-  await user.type(url, 'https://one-piece.com')
+  await user.type(url, 'https://one-piece.com/op/links_eng/')
   await user.click(createButton)
 
   expect(createBlog.mock.calls).toHaveLength(1)
